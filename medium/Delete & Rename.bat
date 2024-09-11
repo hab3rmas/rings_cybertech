@@ -4,10 +4,10 @@ REM Исходное количество кадров
 set TOTAL_FRAMES=180
 
 REM Желаемое количество кадров
-set TARGET_FRAMES=80
+set TARGET_FRAMES=90
 
 REM Тип файлов
-set FILE_TYPE=jpg
+set FILE_TYPE=png
 
 
 set /a STEP=TOTAL_FRAMES * 1000 / (TOTAL_FRAMES - TARGET_FRAMES)
